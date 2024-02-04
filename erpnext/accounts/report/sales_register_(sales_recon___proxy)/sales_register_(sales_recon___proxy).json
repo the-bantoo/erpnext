@@ -1,0 +1,50 @@
+{
+ "add_total_row": 1,
+ "columns": [],
+ "creation": "2023-05-10 13:34:45.277990",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"columns\":[{\"label\":\"Invoice\",\"fieldname\":\"invoice\",\"fieldtype\":\"Link\",\"options\":\"Sales Invoice\",\"width\":120,\"id\":\"invoice\",\"name\":\"Invoice\",\"editable\":false,\"compareValue\":null},{\"label\":\"Posting Date\",\"fieldname\":\"posting_date\",\"fieldtype\":\"Date\",\"width\":80,\"id\":\"posting_date\",\"name\":\"Posting Date\",\"editable\":false},{\"label\":\"Customer\",\"fieldname\":\"customer\",\"fieldtype\":\"Link\",\"options\":\"Customer\",\"width\":120,\"id\":\"customer\",\"name\":\"Customer\",\"editable\":false,\"compareValue\":null},{\"label\":\"Customer Name\",\"fieldname\":\"customer_name\",\"fieldtype\":\"Data\",\"width\":120,\"id\":\"customer_name\",\"name\":\"Customer Name\",\"editable\":false,\"compareValue\":null},{\"label\":\"Customer Group\",\"fieldname\":\"customer_group\",\"fieldtype\":\"Link\",\"options\":\"Customer Group\",\"width\":120,\"id\":\"customer_group\",\"name\":\"Customer Group\",\"editable\":false,\"compareValue\":null},{\"label\":\"Territory\",\"fieldname\":\"territory\",\"fieldtype\":\"Link\",\"options\":\"Territory\",\"width\":80,\"id\":\"territory\",\"name\":\"Territory\",\"editable\":false,\"compareValue\":null},{\"label\":\"Tax Id\",\"fieldname\":\"tax_id\",\"fieldtype\":\"Data\",\"width\":120,\"id\":\"tax_id\",\"name\":\"Tax Id\",\"editable\":false,\"compareValue\":null},{\"label\":\"Receivable Account\",\"fieldname\":\"receivable_account\",\"fieldtype\":\"Link\",\"options\":\"Account\",\"width\":80,\"id\":\"receivable_account\",\"name\":\"Receivable Account\",\"editable\":false,\"compareValue\":null},{\"label\":\"Mode Of Payment\",\"fieldname\":\"mode_of_payment\",\"fieldtype\":\"Data\",\"width\":120,\"id\":\"mode_of_payment\",\"name\":\"Mode Of Payment\",\"editable\":false,\"compareValue\":null},{\"fieldname\":\"paid_amount\",\"fieldtype\":\"Currency\",\"label\":\"Paid Amount\",\"insert_after_index\":8,\"link_field\":\"invoice\",\"doctype\":\"Sales Invoice\",\"options\":\"currency\",\"width\":100,\"id\":\"paid_amount\",\"name\":\"Paid Amount\",\"editable\":false,\"compareValue\":null},{\"label\":\"Project\",\"fieldname\":\"project\",\"fieldtype\":\"Link\",\"options\":\"Project\",\"width\":80,\"id\":\"project\",\"name\":\"Project\",\"editable\":false,\"compareValue\":null},{\"label\":\"Owner\",\"fieldname\":\"owner\",\"fieldtype\":\"Data\",\"width\":150,\"id\":\"owner\",\"name\":\"Owner\",\"editable\":false,\"compareValue\":null},{\"label\":\"Remarks\",\"fieldname\":\"remarks\",\"fieldtype\":\"Data\",\"width\":150,\"id\":\"remarks\",\"name\":\"Remarks\",\"editable\":false,\"compareValue\":null},{\"label\":\"Sales Order\",\"fieldname\":\"sales_order\",\"fieldtype\":\"Link\",\"options\":\"Sales Order\",\"width\":100,\"id\":\"sales_order\",\"name\":\"Sales Order\",\"editable\":false,\"compareValue\":null},{\"label\":\"Delivery Note\",\"fieldname\":\"delivery_note\",\"fieldtype\":\"Link\",\"options\":\"Delivery Note\",\"width\":100,\"id\":\"delivery_note\",\"name\":\"Delivery Note\",\"editable\":false,\"compareValue\":null},{\"label\":\"Cost Center\",\"fieldname\":\"cost_center\",\"fieldtype\":\"Link\",\"options\":\"Cost Center\",\"width\":100,\"id\":\"cost_center\",\"name\":\"Cost Center\",\"editable\":false,\"compareValue\":null},{\"label\":\"Warehouse\",\"fieldname\":\"warehouse\",\"fieldtype\":\"Link\",\"options\":\"Warehouse\",\"width\":100,\"id\":\"warehouse\",\"name\":\"Warehouse\",\"editable\":false,\"compareValue\":null},{\"fieldname\":\"currency\",\"label\":\"Currency\",\"fieldtype\":\"Data\",\"width\":80,\"id\":\"currency\",\"name\":\"Currency\",\"editable\":false,\"compareValue\":null},{\"label\":\"4110 - Sales - OFL\",\"fieldname\":\"4110___sales___ofl\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"4110___sales___ofl\",\"name\":\"4110 - Sales - OFL\",\"editable\":false,\"compareValue\":null},{\"label\":\"4124 - Buffets - OFL\",\"fieldname\":\"4124___buffets___ofl\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"4124___buffets___ofl\",\"name\":\"4124 - Buffets - OFL\",\"editable\":false,\"compareValue\":null},{\"label\":\"4125 - Finger Foods - OFL\",\"fieldname\":\"4125___finger_foods___ofl\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"4125___finger_foods___ofl\",\"name\":\"4125 - Finger Foods - OFL\",\"editable\":false,\"compareValue\":null},{\"label\":\"4132 - Pastries Wholesale - OFL\",\"fieldname\":\"4132___pastries_wholesale___ofl\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"4132___pastries_wholesale___ofl\",\"name\":\"4132 - Pastries Wholesale - OFL\",\"editable\":false,\"compareValue\":null},{\"label\":\"4133 - Pastries Supermarkets - OFL\",\"fieldname\":\"4133___pastries_supermarkets___ofl\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"4133___pastries_supermarkets___ofl\",\"name\":\"4133 - Pastries Supermarkets - OFL\",\"editable\":false,\"compareValue\":null},{\"label\":\"4135 - Pastries Retail - OFL\",\"fieldname\":\"4135___pastries_retail___ofl\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"4135___pastries_retail___ofl\",\"name\":\"4135 - Pastries Retail - OFL\",\"editable\":false,\"compareValue\":null},{\"label\":\"Net Total\",\"fieldname\":\"net_total\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"net_total\",\"name\":\"Net Total\",\"editable\":false,\"compareValue\":null},{\"label\":\"Tax Total\",\"fieldname\":\"tax_total\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"tax_total\",\"name\":\"Tax Total\",\"editable\":false,\"compareValue\":null},{\"label\":\"Grand Total\",\"fieldname\":\"grand_total\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"grand_total\",\"name\":\"Grand Total\",\"editable\":false,\"compareValue\":null},{\"label\":\"Rounded Total\",\"fieldname\":\"rounded_total\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"rounded_total\",\"name\":\"Rounded Total\",\"editable\":false,\"compareValue\":null},{\"label\":\"Outstanding Amount\",\"fieldname\":\"outstanding_amount\",\"fieldtype\":\"Currency\",\"options\":\"currency\",\"width\":120,\"id\":\"outstanding_amount\",\"name\":\"Outstanding Amount\",\"editable\":false,\"compareValue\":null}]}",
+ "letter_head": "Oka V",
+ "modified": "2023-05-10 13:35:13.482278",
+ "modified_by": "Administrator",
+ "module": "Accounts",
+ "name": "Sales Register (Sales Recon - Proxy)",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Sales Invoice",
+ "reference_report": "Sales Register",
+ "report_name": "Sales Register (Sales Recon - Proxy)",
+ "report_type": "Custom Report",
+ "roles": [
+  {
+   "role": "Accounts User"
+  },
+  {
+   "role": "Accounts Manager"
+  },
+  {
+   "role": "Employee Self Service"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Manufacturing Manager"
+  },
+  {
+   "role": "Sales User"
+  },
+  {
+   "role": "Purchase Manager"
+  },
+  {
+   "role": "Purchase User"
+  }
+ ]
+}
